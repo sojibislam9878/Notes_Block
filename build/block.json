@@ -1,0 +1,128 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "b-blocks/notes-block",
+  "version": "1.0.0",
+  "title": "Notes Block",
+  "category": "widgets",
+  "description": "Short description of the notes-block",
+  "keywords": [
+    "notes-block",
+    "note",
+    "notes",
+    "block"
+  ],
+  "textdomain": "b-blocks",
+  "attributes": {
+    "notes": {
+      "type": "array",
+      "default": [
+        {
+          "type": "alert",
+          "title": "Alert",
+          "description": "Lorem ipsum dolor sit amet consectetur. Ipsum orci erat quis pellentesque vel diam. Quis orci sodales faucibus lacus molestie in orci massa aliquet. Lorem ipsum dolor sit amet consectetur. Ipsum orci erat quis pellentesque vel diam. Quis orci sodales faucibus lacus molestie in orci massa aliquet.",
+          "icon": "https://i.ibb.co.com/39t3KFLv/icon-1.png"
+        },
+        {
+          "type": "error",
+          "title": "Error",
+          "description": "Lorem ipsum dolor sit amet consectetur. Ipsum orci erat quis pellentesque vel diam. Quis orci sodales faucibus lacus molestie in orci massa aliquet. Lorem ipsum dolor sit amet consectetur. Ipsum orci erat quis pellentesque vel diam. Quis orci sodales faucibus lacus molestie in orci massa aliquet.",
+          "icon": "https://i.ibb.co.com/vv6tmkZC/icon-2.png"
+        },
+        {
+          "type": "information",
+          "title": "Information",
+          "description": "Lorem ipsum dolor sit amet consectetur. Ipsum orci erat quis pellentesque vel diam. Quis orci sodales faucibus lacus molestie in orci massa aliquet. Lorem ipsum dolor sit amet consectetur. Ipsum orci erat quis pellentesque vel diam. Quis orci sodales faucibus lacus molestie in orci massa aliquet.",
+          "icon": "https://i.ibb.co.com/dsVT9bJy/icon-3.png",
+          "link": {
+            "text": "Button Title",
+            "status": false,
+            "url": "#"
+          }
+        },
+        {
+          "type": "information",
+          "title": "Information",
+          "description": "Lorem ipsum dolor sit amet consectetur. Ipsum orci erat quis pellentesque vel diam. Quis orci sodales faucibus lacus molestie in orci massa aliquet. Lorem ipsum dolor sit amet consectetur. Ipsum orci erat quis pellentesque vel diam. Quis orci sodales faucibus lacus molestie in orci massa aliquet.",
+          "icon": "https://i.ibb.co.com/5h6WgJH7/icon-14.png"
+        },
+        {
+          "type": "information",
+          "title": "Information",
+          "description": "Lorem ipsum dolor sit amet consectetur. Ipsum orci erat quis pellentesque vel diam. Quis orci sodales faucibus lacus molestie in orci massa aliquet. Lorem ipsum dolor sit amet consectetur. Ipsum orci erat quis pellentesque vel diam. Quis orci sodales faucibus lacus molestie in orci massa aliquet.",
+          "icon": "https://i.ibb.co.com/dsVT9bJy/icon-3.png"
+        },
+        {
+          "type": "admin",
+          "title": "Admin Permissions Required",
+          "description": "Lorem ipsum dolor sit amet consectetur. Ipsum orci erat quis pellentesque vel diam. Quis orci sodales faucibus lacus molestie in orci massa aliquet. Lorem ipsum dolor sit amet consectetur. Ipsum orci erat quis pellentesque vel diam. Quis orci sodales faucibus lacus molestie in orci massa aliquet.",
+          "icon": "https://i.ibb.co.com/3m8Zvwb0/icon-10.png"
+        },
+        {
+          "type": "admin",
+          "title": "Admin Permissions Required",
+          "description": "Lorem ipsum dolor sit amet consectetur. Ipsum orci erat quis pellentesque vel diam. Quis orci sodales faucibus lacus molestie in orci massa aliquet. Lorem ipsum dolor sit amet consectetur. Ipsum orci erat quis pellentesque vel diam. Quis orci sodales faucibus lacus molestie in orci massa aliquet.",
+          "icon": "https://i.ibb.co.com/HpX5Pthn/icon-9.png"
+        },
+        {
+          "type": "admin",
+          "title": "Admin Permissions Required",
+          "description": "Lorem ipsum dolor sit amet consectetur. Ipsum orci erat quis pellentesque vel diam. Quis orci sodales faucibus lacus molestie in orci massa aliquet. Lorem ipsum dolor sit amet consectetur. Ipsum orci erat quis pellentesque vel diam. Quis orci sodales faucibus lacus molestie in orci massa aliquet.",
+          "icon": "https://i.ibb.co.com/3m8Zvwb0/icon-10.png"
+        },
+        {
+          "type": "admin",
+          "title": "Admin Permissions Required",
+          "description": "Lorem ipsum dolor sit amet consectetur. Ipsum orci erat quis pellentesque vel diam. Quis orci sodales faucibus lacus molestie in orci massa aliquet. Lorem ipsum dolor sit amet consectetur. Ipsum orci erat quis pellentesque vel diam. Quis orci sodales faucibus lacus molestie in orci massa aliquet.",
+          "icon": "https://i.ibb.co.com/hFbXXZgD/icon-11.png"
+        },
+        {
+          "type": "admin",
+          "title": "Admin Permissions Required",
+          "description": "Lorem ipsum dolor sit amet consectetur. Ipsum orci erat quis pellentesque vel diam. Quis orci sodales faucibus lacus molestie in orci massa aliquet. Lorem ipsum dolor sit amet consectetur. Ipsum orci erat quis pellentesque vel diam. Quis orci sodales faucibus lacus molestie in orci massa aliquet.",
+          "icon": "https://i.ibb.co.com/mV7T75sw/icon-12.png"
+        },
+        {
+          "type": "file",
+          "title": "File",
+          "description": "Lorem ipsum dolor sit amet consectetur. Ipsum orci erat quis pellentesque vel diam. Quis orci sodales faucibus lacus molestie in orci massa aliquet. Lorem ipsum dolor sit amet consectetur. Ipsum orci erat quis pellentesque vel diam. Quis orci sodales faucibus lacus molestie in orci massa aliquet.",
+          "icon": "https://i.ibb.co.com/nMyShT3C/icon-7.png",
+          "link": {
+            "text": "File Name.txt",
+            "status": false,
+            "url": "#"
+          }
+        },
+        {
+          "type": "tip",
+          "title": "Tip",
+          "description": "Lorem ipsum dolor sit amet consectetur. Ipsum orci erat quis pellentesque vel diam. Quis orci sodales faucibus lacus molestie in orci massa aliquet. Lorem ipsum dolor sit amet consectetur. Ipsum orci erat quis pellentesque vel diam. Quis orci sodales faucibus lacus molestie in orci massa aliquet.",
+          "icon": "https://i.ibb.co.com/20NxKS21/icon-8.png"
+        }
+      ]
+    },
+    "align": {
+      "type": "string",
+      "default": "wide"
+    },
+    "selectedNote": {
+      "type": "number",
+      "default": 0
+    }
+  },
+  "supports": {
+    "align": [
+      "wide",
+      "full"
+    ],
+    "html": false
+  },
+  "example": {
+    "attributes": {}
+  },
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./view.css",
+  "render": "file:./render.php",
+  "viewScript": "file:./view.js"
+}

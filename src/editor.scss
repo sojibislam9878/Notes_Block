@@ -1,0 +1,221 @@
+$primaryColor: #4527a4;
+
+.bBlocksInspectorInfo {
+	padding: 6px;
+
+	a {
+		text-decoration: none;
+		font-weight: 700;
+	}
+}
+
+.wp-block-b-blocks-test-purpose{
+	.selectHelp{
+		color: #616063;
+	}
+}
+
+
+
+
+// * {
+//     margin:0px;
+//     padding:0px;
+//     border:none;
+//     outline:none;
+// }
+  
+//   body {
+//     font-size: 18px;
+//     color: #262626;
+//     line-height: 26px;
+//     font-weight: 400;
+//     background: #ffffff;
+//     font-family: "Inter", serif;
+//     -webkit-font-smoothing: antialiased;
+// }
+  
+// .container{
+//     position:relative;
+//     max-width:1170px;
+//     padding:0px 15px;
+//     margin:0 auto;
+// }
+
+// .box-content{
+//     position: relative;
+//     padding: 120px 0px;
+// }
+
+// .title-box{
+//     position: relative;
+//     display: block;
+//     background-color: #dfdfdf;
+//     padding: 25px 40px;
+//     border-radius: 15px;
+//     margin-bottom: 60px;
+// }
+
+// .title-box h2{
+//     position: relative;
+//     display: block;
+//     font-size: 50px;
+//     line-height: 60px;
+//     color: #171717;
+//     font-weight: 700;
+// }
+
+// .single-box{
+//     position: relative;
+//     display: flex;
+//     align-items: center;
+//     gap: 100px;
+//     margin-bottom: 40px;
+// }
+
+// .single-box:last-child{
+//     margin-bottom: 0px;
+// }
+
+// .small-title h4{
+//     position: relative;
+//     display: block;
+//     font-size: 20px;
+//     line-height: 30px;
+//     font-weight: 700;
+//     min-width: 130px;
+// }
+
+// .single-box .text-box{
+//     position: relative;
+//     display: block;
+//     padding: 32px 40px 32px 140px;
+//     border: 2px solid #ffa748;
+//     border-radius: 20px;
+//     background-color: #fff6ed;
+// }
+
+// .single-box .text-box .icon{
+//     position: absolute;
+//     left: 40px;
+//     top: 34px;
+// }
+
+// .single-box .text-box h3{
+//     position: relative;
+//     display: block;
+//     font-size: 24px;
+//     line-height: 32px;
+//     margin-bottom: 22px;
+//     font-weight: 700;
+// }
+
+// .single-box .text-box a{
+//     position: relative;
+//     display: flex;
+//     align-items: center;
+//     gap: 15px;
+//     font-size: 18px;
+//     line-height: 26px;
+//     font-weight: 700;
+//     color: #0293dc;
+//     text-decoration: none;
+//     margin-top: 20px;
+//     transition: all 500ms ease;
+// }
+
+// .single-box .text-box a:hover,
+// .single-box .text-box button:hover{
+//     text-decoration: underline;
+// }
+
+// .single-box .text-box button[type='button']{
+//     position: relative;
+//     display: flex;
+//     align-items: center;
+//     gap: 15px;
+//     font-size: 18px;
+//     line-height: 26px;
+//     font-weight: 700;
+//     color: #9747ff;
+//     text-decoration: none;
+//     background-color: transparent;
+//     margin-top: 20px;
+//     transition: all 500ms ease;
+// }
+
+// .content-box-one .single-box:nth-child(2) .text-box{
+//     background-color: #feeded;
+//     border-color: #f85f5f;
+// }
+
+// .content-box-one .single-box:nth-child(3) .text-box{
+//     background-color: #f2f9fe;
+//     border-color: #aad9f9;
+// }
+
+// .content-box-one .single-box:nth-child(4) .text-box{
+//     background-color: #f3fbef;
+//     border-color: #92da6f;
+// }
+
+// .content-box-one .single-box:nth-child(5) .text-box{
+//     background-color: #f8f2ff;
+//     border-color: #be8bff;
+// }
+
+// .content-box-one .single-box:nth-child(6) .text-box{
+//     background-color: #eefdf8;
+//     border-color: #52e7b3;
+// }
+
+// .content-box-one,
+// .content-box-two{
+//     margin-bottom: 50px;
+// }
+
+// .title-box-two{
+//     position: relative;
+//     display: block;
+//     margin-bottom: 40px;
+// }
+
+// .title-box-two h2{
+//     position: relative;
+//     display: block;
+//     font-size: 40px;
+//     line-height: 50px;
+//     font-weight: 700;
+// }
+
+// .content-box-two .single-box .text-box{
+//     background-color: #f3fbef;
+//     border-color: #92da6f;
+// }
+
+// .content-box-three .single-box .text-box{
+//     background-color: #f2f9fe;
+//     border-color: #aad9f9;
+// }
+
+
+// @media only screen and (max-width: 767px){
+//     .single-box{
+//         display: block;
+//     }
+
+//     .small-title h4{
+//         margin-bottom: 30px;
+//     }
+
+//     .single-box .text-box{
+//         padding-left: 40px;
+//     }
+
+//     .single-box .text-box .icon{
+//         position: relative;
+//         left: 0px;
+//         top: 0px;
+//         margin-bottom: 20px;
+//     }
+//   }

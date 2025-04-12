@@ -1,0 +1,62 @@
+[
+    {
+        "label":"Alert",
+        "value":0,
+        "content":"<!-- wp:b-blocks/notes-block /-->"
+    },
+    {
+        "label":"Error",
+        "value":1,
+        "content":"<!-- wp:b-blocks/notes-block {\"selectedNote\":1} /-->"
+    },
+    {
+        "label":"Info 1",
+        "value":2,
+        "content":"<!-- wp:b-blocks/notes-block {\"selectedNote\":2} /-->"
+    },
+    {
+        "label":"Info 2",
+        "value":3,
+        "content":"<!-- wp:b-blocks/notes-block {\"selectedNote\":3} /-->"
+    },
+    {
+        "label":"Info 3",
+        "value":4,
+        "content":"<!-- wp:b-blocks/notes-block {\"selectedNote\":4} /-->"
+    },
+    {
+        "label":"Admin Per 1",
+        "value":5,
+        "content":"<!-- wp:b-blocks/notes-block {\"selectedNote\":5} /-->"
+    },
+    {
+        "label":"Admin Per 2",
+        "value":6,
+        "content":"<!-- wp:b-blocks/notes-block {\"selectedNote\":6} /-->"
+    },
+    {
+        "label":"Admin Per 3",
+        "value":7,
+        "content":"<!-- wp:b-blocks/notes-block {\"selectedNote\":7} /-->"
+    },
+    {
+        "label":"Admin Per 4",
+        "value":8,
+        "content":"<!-- wp:b-blocks/notes-block {\"selectedNote\":8} /-->"
+    },
+    {
+        "label":"Admin Per 5",
+        "value":9,
+        "content":"<!-- wp:b-blocks/notes-block {\"selectedNote\":9} /-->"
+    },
+    {
+        "label":"File",
+        "value":10,
+        "content":"<!-- wp:b-blocks/notes-block {\"selectedNote\":10} /-->"
+    },
+    {
+        "label":"Tip",
+        "value":11,
+        "content":"<!-- wp:b-blocks/notes-block {\"selectedNote\":11} /-->"
+    }
+]

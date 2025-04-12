@@ -1,0 +1,96 @@
+$primaryColor: #4527a4;
+
+.wp-block-b-blocks-notes-block {
+  .note-cont {
+    position: relative;
+    display: block;
+    padding: 32px 40px 32px 140px;
+    border-radius: 20px;
+
+    .icon {
+      position: absolute;
+      left: 40px;
+      top: 34px;
+    }
+	.link{
+		outline: none;
+		display: flex;
+		align-items: center;
+		gap: 12px;
+		font-weight: 800;
+		width: max-content;
+	}
+	.info-link {
+		color: #1ba2fc;
+		text-decoration: none;
+	
+		&:hover {
+			text-decoration: underline;
+		}
+	}	
+	.file-link{
+		color: #8425ff ;
+		text-decoration: none;
+	}
+    h3 {
+		font-family: "Inter", serif;
+      margin-top: 0px;
+      position: relative;
+      display: block;
+      font-size: 24px;
+      line-height: 32px;
+      margin-bottom: 22px;
+      font-weight: 700;
+    }
+	p {
+		font-size: 18px;
+		font-family: "Inter", serif;
+	}
+  }
+
+  .alert{
+    border: 2px solid #ffa748;
+    background-color: #fff6ed;
+
+  }
+
+  .error{
+	background-color: #feeded;
+    border: 2px solid #f85f5f;
+  }
+
+  .information{
+	background-color: #f2f9fe;
+    border: 2px solid #aad9f9;
+  }
+
+  .admin{
+	background-color: #f3fbef;
+	border: 2px solid #92da6f;
+  }
+
+  .file{
+	background-color: #f8f2ff;
+	border: 2px solid #be8bff;
+  }
+
+  .tip{
+	background-color: #eefdf8;
+	border: 2px solid #52e7b3;
+  }
+
+
+
+  @media only screen and (max-width: 767px){
+
+    .note-cont{
+      padding: 120px 40px 26px 40px;
+    }
+   .icon{
+        position: relative;
+        left: 0px;
+        top: 0px;
+        margin-bottom: 20px;
+    }
+  }
+}

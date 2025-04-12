@@ -1,0 +1,85 @@
+/*!***************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/style.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************/
+.wp-block-b-blocks-notes-block .note-cont {
+  position: relative;
+  display: block;
+  padding: 32px 40px 32px 140px;
+  border-radius: 20px;
+}
+.wp-block-b-blocks-notes-block .note-cont .icon {
+  position: absolute;
+  left: 40px;
+  top: 34px;
+}
+.wp-block-b-blocks-notes-block .note-cont .link {
+  outline: none;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-weight: 800;
+  width: -moz-max-content;
+  width: max-content;
+}
+.wp-block-b-blocks-notes-block .note-cont .info-link {
+  color: #1ba2fc;
+  text-decoration: none;
+}
+.wp-block-b-blocks-notes-block .note-cont .info-link:hover {
+  text-decoration: underline;
+}
+.wp-block-b-blocks-notes-block .note-cont .file-link {
+  color: #8425ff;
+  text-decoration: none;
+}
+.wp-block-b-blocks-notes-block .note-cont h3 {
+  font-family: "Inter", serif;
+  margin-top: 0px;
+  position: relative;
+  display: block;
+  font-size: 24px;
+  line-height: 32px;
+  margin-bottom: 22px;
+  font-weight: 700;
+}
+.wp-block-b-blocks-notes-block .note-cont p {
+  font-size: 18px;
+  font-family: "Inter", serif;
+}
+.wp-block-b-blocks-notes-block .alert {
+  border: 2px solid #ffa748;
+  background-color: #fff6ed;
+}
+.wp-block-b-blocks-notes-block .error {
+  background-color: #feeded;
+  border: 2px solid #f85f5f;
+}
+.wp-block-b-blocks-notes-block .information {
+  background-color: #f2f9fe;
+  border: 2px solid #aad9f9;
+}
+.wp-block-b-blocks-notes-block .admin {
+  background-color: #f3fbef;
+  border: 2px solid #92da6f;
+}
+.wp-block-b-blocks-notes-block .file {
+  background-color: #f8f2ff;
+  border: 2px solid #be8bff;
+}
+.wp-block-b-blocks-notes-block .tip {
+  background-color: #eefdf8;
+  border: 2px solid #52e7b3;
+}
+@media only screen and (max-width: 767px) {
+  .wp-block-b-blocks-notes-block .note-cont {
+    padding: 120px 40px 26px 40px;
+  }
+  .wp-block-b-blocks-notes-block .icon {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    margin-bottom: 20px;
+  }
+}
+
+/*# sourceMappingURL=view.css.map*/
