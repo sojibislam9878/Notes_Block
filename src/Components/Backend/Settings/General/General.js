@@ -1,6 +1,5 @@
 import { __ } from "@wordpress/i18n";
 import {
-  Button,
   __experimentalInputControl as InputControl,
   TextareaControl,
 } from "@wordpress/components";

@@ -10,53 +10,48 @@
         "content":"<!-- wp:b-blocks/notes-block {\"selectedNote\":1} /-->"
     },
     {
-        "label":"Info 1",
+        "label":"Info-URL",
         "value":2,
         "content":"<!-- wp:b-blocks/notes-block {\"selectedNote\":2} /-->"
     },
     {
-        "label":"Info 2",
+        "label":"Info-Bookmark",
         "value":3,
         "content":"<!-- wp:b-blocks/notes-block {\"selectedNote\":3} /-->"
     },
     {
-        "label":"Info 3",
+        "label":"Info-Basic",
         "value":4,
         "content":"<!-- wp:b-blocks/notes-block {\"selectedNote\":4} /-->"
     },
     {
-        "label":"Admin Per 1",
+        "label":"Admin Settings",
         "value":5,
         "content":"<!-- wp:b-blocks/notes-block {\"selectedNote\":5} /-->"
     },
     {
-        "label":"Admin Per 2",
+        "label":"Admin Info",
         "value":6,
         "content":"<!-- wp:b-blocks/notes-block {\"selectedNote\":6} /-->"
     },
     {
-        "label":"Admin Per 3",
+        "label":"Admin-Permission",
         "value":7,
         "content":"<!-- wp:b-blocks/notes-block {\"selectedNote\":7} /-->"
     },
     {
-        "label":"Admin Per 4",
+        "label":"Admin Alert",
         "value":8,
         "content":"<!-- wp:b-blocks/notes-block {\"selectedNote\":8} /-->"
     },
     {
-        "label":"Admin Per 5",
+        "label":"File",
         "value":9,
         "content":"<!-- wp:b-blocks/notes-block {\"selectedNote\":9} /-->"
     },
     {
-        "label":"File",
+        "label":"Tip",
         "value":10,
         "content":"<!-- wp:b-blocks/notes-block {\"selectedNote\":10} /-->"
-    },
-    {
-        "label":"Tip",
-        "value":11,
-        "content":"<!-- wp:b-blocks/notes-block {\"selectedNote\":11} /-->"
     }
 ]

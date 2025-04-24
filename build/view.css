@@ -33,7 +33,6 @@
   text-decoration: none;
 }
 .wp-block-b-blocks-notes-block .note-cont h3 {
-  font-family: "Inter", serif;
   margin-top: 0px;
   position: relative;
   display: block;
@@ -44,7 +43,6 @@
 }
 .wp-block-b-blocks-notes-block .note-cont p {
   font-size: 18px;
-  font-family: "Inter", serif;
 }
 .wp-block-b-blocks-notes-block .alert {
   border: 2px solid #ffa748;

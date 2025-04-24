@@ -1,19 +1,19 @@
-import { useState } from "react";
-import { __ } from "@wordpress/i18n";
-import {
-  PanelBody,
-  __experimentalBoxControl as BoxControl,
-} from "@wordpress/components";
-import { ColorsControl } from "../../../../../../bpl-tools/Components";
+// import { useState } from "react";
+// import { __ } from "@wordpress/i18n";
+// import {
+//   PanelBody,
+//   __experimentalBoxControl as BoxControl,
+// } from "@wordpress/components";
+// import { ColorsControl } from "../../../../../../bpl-tools/Components";
 
-const Style = ({ attributes, setAttributes }) => {
-  const { colors } = attributes;
-  const [values, setValues] = useState({
-    top: "50px",
-    left: "10px",
-    right: "10px",
-    bottom: "50px",
-  });
+const Style = () => {
+  // const { colors } = attributes;
+  // const [values, setValues] = useState({
+  //   top: "50px",
+  //   left: "10px",
+  //   right: "10px",
+  //   bottom: "50px",
+  // });
 
 
 

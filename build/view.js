@@ -889,11 +889,11 @@ const Notes = ({
   return (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
     className: `note-cont ${type}`
   }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
-    className: "icon"
-  }, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("img", {
-    src: icon,
-    alt: "icon"
-  })), from === "server" ? (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_5__.RichText, {
+    className: "icon",
+    dangerouslySetInnerHTML: {
+      __html: icon
+    }
+  }), from === "server" ? (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_5__.RichText, {
     tagName: "h3",
     placeholder: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_4__.__)("Title"),
     value: title,
@@ -907,7 +907,13 @@ const Notes = ({
     onChange: value => setAttributes({
       notes: (0,_utils_functions__WEBPACK_IMPORTED_MODULE_6__.updateData)(notes, value, selectedNote, "description")
     })
-  })) : (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("h3", null, title), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, description)), selectedNoteInfo.link ? selectedNoteInfo.type === "information" ? (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("a", {
+  })) : (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_5__.RichText.Content, {
+    tagName: "h3",
+    value: title
+  }), (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_5__.RichText.Content, {
+    tagName: "p",
+    value: description
+  })), selectedNoteInfo.link ? selectedNoteInfo.type === "information" ? (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("a", {
     className: "link info-link",
     href: selectedNoteInfo.link.url,
     target: "blank"

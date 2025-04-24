@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Notes Block
- * Description: Short description of the plugin notes-block
+ * Description: Display custom alerts and notes on your WordPress site with a simple, lightweight plugin no coding required.
  * Version: 1.0.0
  * Author: bPlugins
  * Author URI: https://bplugins.com
