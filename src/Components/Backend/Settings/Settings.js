@@ -17,9 +17,6 @@ import { BplBlockPreview } from "../../../../../bpl-tools/Components";
 const Settings = ({ attributes, setAttributes, clientId }) => {
   const { alignment, selectedNote } = attributes;
 
-  
-  
-
   return (
     <>
       <InspectorControls>
