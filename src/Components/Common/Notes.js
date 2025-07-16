@@ -1,20 +1,21 @@
 import React from "react";
-import arrow from "../../Assets/Icons/icon-5.png";
-import web from "../../Assets/Icons/icon-4.png";
-import file from "../../Assets/Icons/icon-15.png";
 import { __ } from "@wordpress/i18n";
 import { RichText } from "@wordpress/block-editor";
 import { updateData } from "../../utils/functions";
+import { fileIcon, globIcon, rightArrow } from "../../utils/icons";
+
 
 const Notes = ({ attributes, setAttributes, from }) => {
   const { notes, selectedNote } = attributes;
   const selectedNoteInfo = notes[selectedNote];
   const { title, description, icon, type } = selectedNoteInfo;
+  
   return (
-    <div className={`note-cont ${type}`}>
+    <div className={`note-cont ${type}`} >
       <div className="icon" dangerouslySetInnerHTML={{ __html: icon }}></div>
       
 
+      <div>
       {from === "server" ? (
         <>
           <RichText
@@ -51,10 +52,9 @@ const Notes = ({ attributes, setAttributes, from }) => {
             href={selectedNoteInfo.link.url}
             target="blank"
           >
-            <img src={web} alt="" />
-
+            <div className="linkIcon" dangerouslySetInnerHTML={{ __html:globIcon}} />
             <span>{selectedNoteInfo.link?.text}</span>
-            <img src={arrow} alt="" />
+            <div className="linkIcon" dangerouslySetInnerHTML={{ __html:rightArrow}} />
           </a>
         ) : (
           <a
@@ -64,13 +64,14 @@ const Notes = ({ attributes, setAttributes, from }) => {
             rel="noreferrer"
             target="_blank"
           >
-            <img src={file} alt="" />
+            <div className="linkIcon" dangerouslySetInnerHTML={{ __html:fileIcon}} />
             <span>{selectedNoteInfo.link?.text}</span>
           </a>
         )
       ) : (
         ""
       )}
+      </div>
     </div>
   );
 };
