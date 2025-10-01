@@ -2,7 +2,7 @@
   "$schema": "https://schemas.wp.org/trunk/block.json",
   "apiVersion": 3,
   "name": "b-blocks/notes-block",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "title": "Notes Block",
   "category": "widgets",
   "description": "Easily display custom alerts, messages, or notes on your WordPress site with this lightweight and flexible plugin.",

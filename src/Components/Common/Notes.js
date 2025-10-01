@@ -11,66 +11,74 @@ const Notes = ({ attributes, setAttributes, from }) => {
   const { title, description, icon, type } = selectedNoteInfo;
   
   return (
-    <div className={`note-cont ${type}`} >
+    <div className={`note-cont ${type}`}>
       <div className="icon" dangerouslySetInnerHTML={{ __html: icon }}></div>
-      
 
       <div>
-      {from === "server" ? (
-        <>
-          <RichText
-            tagName="h3"
-            placeholder={__("Title")}
-            value={title}
-            onChange={(value) =>
-              setAttributes({
-                notes: updateData(notes, value, selectedNote, "title"),
-              })
-            }
-          />
-          <RichText
-            tagName="p"
-            placeholder={__("Description...")}
-            value={description}
-            onChange={(value) =>
-              setAttributes({
-                notes: updateData(notes, value, selectedNote, "description"),
-              })
-            }
-          />
-        </>
-      ) : (
-        <>
-          <RichText.Content tagName="h3" value={title} />
-          <RichText.Content tagName="p" value={description} />
-        </>
-      )}
-      {selectedNoteInfo.link ? (
-        selectedNoteInfo.type === "information" ? (
-          <a
-            className="link info-link"
-            href={selectedNoteInfo.link.url}
-            target="blank"
-          >
-            <div className="linkIcon" dangerouslySetInnerHTML={{ __html:globIcon}} />
-            <span>{selectedNoteInfo.link?.text}</span>
-            <div className="linkIcon" dangerouslySetInnerHTML={{ __html:rightArrow}} />
-          </a>
+        {from === "server" ? (
+          <>
+            <RichText
+              tagName="h3"
+              placeholder={__("Title")}
+              value={title}
+              onChange={(value) =>
+                setAttributes({
+                  notes: updateData(notes, value, selectedNote, "title"),
+                })
+              }
+            />
+            <RichText
+              tagName="p"
+              placeholder={__("Description...")}
+              value={description}
+              onChange={(value) =>
+                setAttributes({
+                  notes: updateData(notes, value, selectedNote, "description"),
+                })
+              }
+            />
+          </>
         ) : (
-          <a
-            className="link file-link"
-            download
-            href={selectedNoteInfo.link.url}
-            rel="noreferrer"
-            target="_blank"
-          >
-            <div className="linkIcon" dangerouslySetInnerHTML={{ __html:fileIcon}} />
-            <span>{selectedNoteInfo.link?.text}</span>
-          </a>
-        )
-      ) : (
-        ""
-      )}
+          <>
+            <h3 dangerouslySetInnerHTML={{ __html: title }} />
+            <p dangerouslySetInnerHTML={{ __html: description }} />
+          </>
+        )}
+        {selectedNoteInfo.link ? (
+          selectedNoteInfo.type === "information" ? (
+            <a
+              className="link info-link"
+              href={selectedNoteInfo.link.url}
+              target="blank"
+            >
+              <div
+                className="linkIcon"
+                dangerouslySetInnerHTML={{ __html: globIcon }}
+              />
+              <span>{selectedNoteInfo.link?.text}</span>
+              <div
+                className="linkIcon"
+                dangerouslySetInnerHTML={{ __html: rightArrow }}
+              />
+            </a>
+          ) : (
+            <a
+              className="link file-link"
+              download
+              href={selectedNoteInfo.link.url}
+              rel="noreferrer"
+              target="_blank"
+            >
+              <div
+                className="linkIcon"
+                dangerouslySetInnerHTML={{ __html: fileIcon }}
+              />
+              <span>{selectedNoteInfo.link?.text}</span>
+            </a>
+          )
+        ) : (
+          ""
+        )}
       </div>
     </div>
   );

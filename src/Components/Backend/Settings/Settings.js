@@ -10,27 +10,15 @@ import { generalStyleTabs } from "../../../utils/options";
 import General from "./General/General";
 import Style from "./Style/Style";
 import { updateData } from "../../../utils/functions";
+import BlockPreview from "../BlockPreview/BlockPreview";
+import { themes } from "./theme";
 
-import themes from './theme.json'
-import { BplBlockPreview } from "../../../../../bpl-tools/Components";
-
-const Settings = ({ attributes, setAttributes, clientId }) => {
+const Settings = ({ attributes, setAttributes }) => {
   const { alignment, selectedNote } = attributes;
 
   return (
     <>
       <InspectorControls>
-        <div className="bBlocksInspectorInfo">
-          Need more block like this? Checkout the bundle ➡{" "}
-          <a
-            href="https://wordpress.org/plugins/b-blocks"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            B Blocks
-          </a>
-        </div>
-
         <TabPanel
           className="bPlTabPanel wp-block-b-blocks-test-purpose"
           activeClass="activeTab"
@@ -78,11 +66,19 @@ const Settings = ({ attributes, setAttributes, clientId }) => {
           ]}
         />
 
-        <BplBlockPreview
+        {/* <BplBlockPreview
           blocks={themes}
           clientId={clientId}
           value={attributes.selectedNote}
           onChange={(v) => setAttributes({ selectedNote: updateData(selectedNote, v++) })}
+        /> */}
+        <BlockPreview
+          isPremium={false}
+          options={themes}
+          value={attributes.selectedNote}
+          onChange={(v) =>
+            setAttributes({ selectedNote: updateData(selectedNote, v++) })
+          }
         />
       </BlockControls>
     </>
